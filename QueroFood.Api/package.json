@@ -1,0 +1,24 @@
+{
+  "name": "querofood.api",
+  "version": "1.0.0",
+  "description": "Api feita em nodejs para o aplicativo QueroFood",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "./node_modules/mocha/bin/mocha --timeout 900000"
+  },
+  "author": "Dario Freire",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.2.0"
+  }
+}
